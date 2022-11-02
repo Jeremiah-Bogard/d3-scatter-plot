@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    margin: 20px;
+}
+
+#tooltip {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #00a;
+    translate: 20px -50%;
+    color: #fff;
+    padding: 7px;
+    font-size: 12px;
+    opacity: 0;
+}
+
+#legend {
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    translate: 70vw 100px;
+}
+
+.rect {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    translate: 0 25%;
+}
